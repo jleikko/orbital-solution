@@ -445,3 +445,443 @@ sending changed CSS file: resources/public/css/style.css
 sending changed CSS file: resources/public/css/style.css
 sending changed CSS file: resources/public/css/style.css
 sending changed CSS file: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Only :as alias and :refer (names) options supported in :require; offending spec: [orbit.common :refer [earth-radius] quil.core :as q :refer [radians cos sin]] at line 1 src/orbit/coords.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:576)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:578)
+    cljs.analyzer$error.invoke (analyzer.cljc:576)
+    cljs.analyzer$basic_validate_ns_spec.invokeStatic (analyzer.cljc:1715)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1701)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1756)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1752)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:652)
+    clojure.core$partial$fn__4765.doInvoke (core.clj:2534)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1749)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invokeStatic (core.clj:650)
+    clojure.core$apply.invoke (core.clj:641)
+    cljs.analyzer$eval1787$fn__1789$fn__1794.invoke (analyzer.cljc:1943)
+    clojure.core.protocols$fn__6755.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+    clojure.core.protocols$fn__6710$G__6705__6719.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invokeStatic (protocols.clj:31)
+    clojure.core.protocols$fn__6738.invokeStatic (protocols.clj:75)
+    clojure.core.protocols/fn (protocols.clj:75)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.038 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.104 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.032 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.037 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.044 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.031 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.037 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mclojure.lang.ExceptionInfo: Invalid token: :refer:
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:391)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:387)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_keyword.invokeStatic (reader.clj:360)
+    clojure.tools.reader$read_keyword.invoke (reader.clj:343)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:226)
+    clojure.tools.reader$read_vector.invoke (reader.clj:222)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:195)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:188)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:208)
+    clojure.tools.reader$read_list.invoke (reader.clj:204)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:889)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:870)
+    clojure.tools.reader$read.invokeStatic (reader.clj:938)
+    clojure.tools.reader$read.invoke (reader.clj:915)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2070$fn__2071$fn__2072.invoke (analyzer.cljc:2656)
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.101 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 5.054 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.163 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.222 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.156 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.181 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.286 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.26 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file src/orbit/common.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.28 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: No such namespace: Double, could not locate Double.cljs, Double.cljc, or Closure namespace "" at line 7 src/orbit/parse.cljs
+WARNING: Use of undeclared Var Double/parseDouble at line 7 src/orbit/parse.cljs
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file /Users/jaakko.leikko/git/orbital-solution/src/orbit/intersections.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 2.092 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: No such namespace: Double, could not locate Double.cljs, Double.cljc, or Closure namespace "" at line 7 src/orbit/parse.cljs
+WARNING: Use of undeclared Var Double/parseDouble at line 7 src/orbit/parse.cljs
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clojure.math.numeric-tower, could not locate clojure/math/numeric_tower.cljs, clojure/math/numeric_tower.cljc, or Closure namespace "clojure.math.numeric-tower" in file /Users/jaakko.leikko/git/orbital-solution/src/orbit/intersections.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.328 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 5 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 6 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 7 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 16 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 17 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 18 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 19 src/orbit/intersections.cljs
+WARNING: Use of undeclared Var orbit.intersections/sqrt at line 34 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 34 src/orbit/intersections.cljs
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "let" should be a vector at line 5 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 5, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.289 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 5 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 6 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 7 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 16 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 17 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 18 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 19 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 34 src/orbit/intersections.cljs
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "let" should be a vector at line 5 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 5, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.283 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 5 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 6 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 7 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 16 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 17 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 18 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 19 src/orbit/intersections.cljs
+WARNING: Wrong number of args (2) passed to orbit.common/expt at line 34 src/orbit/intersections.cljs
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "let" should be a vector at line 5 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 5, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.243 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration missing at line 5 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 5, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.188 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "let" should be a vector at line 8 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 8, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.199 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "let" should be a vector at line 8 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 8, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.234 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "let" should be a vector at line 8 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 8, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.218 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: No such namespace: clj-http.client, could not locate clj_http/client.cljs, clj_http/client.cljc, or Closure namespace "clj-http.client" in file src/orbit/net.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 1.185 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: Use of undeclared Var orbital-solution.core/solve-challenge at line 94 /Users/jaakko.leikko/git/orbital-solution/src/orbital_solution/core.cljs
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 2.074 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: Use of undeclared Var orbital-solution.core/solve-challenge at line 94 /Users/jaakko.leikko/git/orbital-solution/src/orbital_solution/core.cljs
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/orbit/parse.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.486 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/orbital_solution/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.469 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+WARNING: Use of undeclared Var orbit.coords/Math at line 7 src/orbit/coords.cljs
+notifying browser that file changed:  out/orbit/coords.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.462 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/orbit/coords.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.65 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/coords.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.479 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/coords.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.355 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/coords.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.423 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mERROR: EOF while reading string on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 17, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.156 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.35 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/orbital-solution.js" failed.
+[0mANALYSIS ERROR: Parameter declaration missing at line 5 /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs on file /Users/jaakko.leikko/git/orbital-solution/src/orbit/core.cljs, line 5, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.204 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 1.771 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.366 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.323 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  out/orbit/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.394 seconds.[0m
+[0mCompiling "resources/public/js/compiled/orbital-solution.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/orbit/coords.js
+[32mSuccessfully compiled "resources/public/js/compiled/orbital-solution.js" in 0.519 seconds.[0m
